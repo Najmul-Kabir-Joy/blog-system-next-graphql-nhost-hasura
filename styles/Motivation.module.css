@@ -1,0 +1,58 @@
+/* .quoteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.quoteContainer .quoteContent {
+    position: relative;
+  }
+  .quoteContainer .quoteContent .image {
+    z-index: -1;
+    opacity: 45%;
+  }
+  .quoteContainer .quoteContent p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-align: justify;
+    z-index: 10;
+    font-weight: 600;
+  }
+  .quoteContainer .quoteContent p span {
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .quoteContainer .quoteContent p {
+      position: absolute;
+      /* top: 50%; */
+      /* left: 50%; */
+      /* transform: translate(-50%, -50%); */
+      font-size: 1.3em;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .quoteContainer .quoteContent p {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
+  

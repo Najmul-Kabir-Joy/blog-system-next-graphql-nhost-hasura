@@ -1,0 +1,31 @@
+.bannerContiner {
+    position: relative;
+    height: 50vh;
+  }
+  
+  .background_image {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .background_image .image {
+    height: 50vh;
+    width: 100%;
+  }
+  
+  .banner_elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .banner_elements p {
+    font-size: 0.5em;
+  }
+  
